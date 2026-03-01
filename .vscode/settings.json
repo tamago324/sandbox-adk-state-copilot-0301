@@ -1,0 +1,16 @@
+{
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "google",
+            "depth": 10,
+            // falseにすると、__all__ で指定されているもののみ、参照できるようになる (デフォルト: false)
+            "includeAllSymbols": false
+        }
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingTypeStubs": "none"
+    },
+    "python.analysis.extraPaths": [
+        "${worksapceFolder}/agent"
+    ]
+}
